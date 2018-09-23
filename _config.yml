@@ -1,0 +1,57 @@
+# Site Info
+title: ConyCony's Blog
+tagline: ConyCony's Blog
+description: ''
+logo: 
+baseurl: ""
+url: "http://conycony.github.io"
+#url: "127.0.0.1:4000"
+
+# Site configurations
+plugins:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: ConyCony
+  description: 
+  gravatar: 
+  contact:
+    github:    https://github.com/conyconydev
+    # linkedin:  <hide>
+    # facebook:  <hide>
+    # twitter:   <hide>
+    # weibo:     <hide>
+    # email:     <hide>
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  Github Project: 
+    - 'http://kristoffdh.github.io/'
+
+# Where are tags and categories displayed
+#tag_page: '/blog/tags/'
+#category_page: '/blog/categories/'
+
+# Puglins
+mathjax: false
+google_analytics_token: 
+disqus_short_name: 

@@ -1,0 +1,29 @@
+---
+layout: page
+title: swift
+permalink: /blog/categories/swift
+---
+
+<div class="tags-expo">
+	<div class="tags-expo-list">
+		<a href="{{ site.url }}/blog/categories/" class="post-tag"> All Categories</a>
+		{% for tag in site.categories %}
+			<!-- <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a> -->
+			<a href="{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+		{% endfor %}
+	</div>
+	<hr/>
+	<div class="tags-expo-section">
+		<h2 id="{{ page.title }}">{{ page.title }}</h2>
+		<ul class="tags-expo-posts">
+			{% for post in site.categories.test %}
+				<a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+					<li>
+						{{ post.title }}
+						<small class="post-date">{{ post.date | date_to_string }}</small>
+					</li>
+				</a>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
