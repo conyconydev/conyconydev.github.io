@@ -1,0 +1,27 @@
+---
+layout: page
+title: Study
+---
+
+<div class="tags-expo">
+	<div class="tags-expo-list">
+		<a href="{{ site.url }}/categories/CategoryList" class="post-tag">All Categories</a>
+		{% for tag in site.categories %}
+			<!-- <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a> -->
+			<a href="../{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+		{% endfor %}
+	</div>
+	<hr/>
+	<div class="tags-expo-section">
+		<ul class="tags-expo-posts">
+			{% for post in site.categories.STUDY %}
+				<a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+					<li>
+						{{ post.title }}
+						<small class="post-date">{{ post.date | date_to_string }}</small>
+					</li>
+				</a>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

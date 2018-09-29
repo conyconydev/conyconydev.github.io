@@ -4,8 +4,8 @@ tagline: ConyCony's Blog
 description: ''
 logo: 
 baseurl: ""
-url: "http://conycony.github.io"
-#url: "127.0.0.1:4000"
+#url: "http://conycony.github.io"
+url: "127.0.0.1:4000"
 
 # Site configurations
 plugins:
@@ -18,7 +18,7 @@ sass:
   style: compressed
   sass_dir: _scss    
 paginate: 5
-paginate_path: '/blog/page:num'
+paginate_path: '/categories/ALL/page:num'
 permalink: pretty
 
 version: 1.0.0
@@ -36,22 +36,24 @@ author:
     # weibo:     <hide>
     # email:     <hide>
 
-# Navigation (2nd level links supported)
+future: true    
+    
 nav:
   Home:           
     - '/'
-  Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+  Categories:
+    - '/categories/CategoryList'
+    - { All: '/categories/' }
+    - { TIL: '/categories/TIL/' }
+    - { Swift & Ios: '/categories/SwiftIos/' }
+    - { Study: '/categories/Study/' }
+    - { Project: '/categories/Project/' }
+    - { Tags: '/categories/Tags/' }
   Github Project: 
-    - 'http://kristoffdh.github.io/'
+    - 'https://github.com/conyconydev'
 
-# Where are tags and categories displayed
-#tag_page: '/blog/tags/'
-#category_page: '/blog/categories/'
 
 # Puglins
 mathjax: false
 google_analytics_token: 
-disqus_short_name: 
+disqus_short_name: "conyconydev-github-io"
