@@ -57,3 +57,5 @@ nav:
 mathjax: false
 google_analytics_token: 
 disqus_short_name: "conyconydev-github-io"
+
+theme: jekyll-theme-leap-day
