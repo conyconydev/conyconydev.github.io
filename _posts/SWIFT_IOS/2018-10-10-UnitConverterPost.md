@@ -59,7 +59,7 @@ print(arr)
 
 
 
-* **split(separator: " ") ** 
+* **split(separator: " ")** 
 
 map을 사용하지 않으면 이상한 영문값이 찍혀서… map으로 찍었다.
 
@@ -72,7 +72,7 @@ print(userValue![1])
 
 
 
-* **split(separator: " " , maxSplits : Int) **
+* **split(separator: " " , maxSplits : Int)**
 
 : maxSplits : 콜렉션을 분활하는 최대 횟수 또는 반환 할 시퀀스 수 (count) 보다 적은 수 . maxsplits은 0보다 크거나 같아야 한다.
 
