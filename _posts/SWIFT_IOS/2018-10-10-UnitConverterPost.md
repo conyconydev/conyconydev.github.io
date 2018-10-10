@@ -59,7 +59,7 @@ print(arr)
 
 
 
-* **split(separator: " ") **   
+* **split(separator: " ") ** 
 
 map을 사용하지 않으면 이상한 영문값이 찍혀서… map으로 찍었다.
 
