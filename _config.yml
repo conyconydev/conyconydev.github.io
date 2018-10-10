@@ -4,8 +4,8 @@ tagline: ConyCony's Blog
 description: ''
 logo: 
 baseurl: ""
-#url: "http://conycony.github.io"
-url: "127.0.0.1:4000"
+url: "http://conycony.github.io"
+#url: "127.0.0.1:4000"
 
 # Site configurations
 plugins:
@@ -57,3 +57,5 @@ nav:
 mathjax: false
 google_analytics_token: 
 disqus_short_name: "conyconydev-github-io"
+
+theme: jekyll-theme-leap-day
