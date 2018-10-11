@@ -132,3 +132,32 @@ func dicSort(_ unit:[String:Double]) {
 }
 ```
 
+
+
+* **terminator**
+
+: print 시 newline 이 안된다.
+
+```swift
+for n in 1...5 {
+    print(n) //1
+    print(n,terminator:" ") //2
+}
+```
+
+1번의 결과는
+
+1
+
+2
+
+3
+
+4
+
+5
+
+2번의 결과는 
+
+1 2 3 4 5
+
