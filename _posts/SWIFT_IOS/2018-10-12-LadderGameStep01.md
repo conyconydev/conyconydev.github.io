@@ -130,16 +130,18 @@ print(type(of: index)) // 를 해보았다.
 
 c언어로 접근 할때는 
 
-```c++
+```c
+
 int main(void) {
 	int index = 0;
-	int arr[10][10] = {{1,2,3},{4,5,6}};
+	int arr[10][10] = { {1,2,3} , {4,5,6} };
 	for (index = 0 ;  index<10 ; index++)
 	{
 		printf("%d " , arr[index][0]);
 	}
 	return 0;
 }
+
 ```
 
 
