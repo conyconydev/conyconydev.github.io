@@ -3,7 +3,7 @@ layout: post
 title:  ladderGamestep1
 date:  2018-10-12 15:26:12
 category: SwiftIos
-tags: [Swift ]
+tags: [Swift,Array]
 ---
 
 
