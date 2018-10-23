@@ -43,7 +43,6 @@ nav:
     - '/'
   Categories:
     - '/categories/CategoryList'
-    - { All: '/categories/' }
     - { TIL: '/categories/TIL/' }
     - { Swift & Ios: '/categories/SwiftIos/' }
     - { Study: '/categories/Study/' }
