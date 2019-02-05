@@ -1,0 +1,55 @@
+---
+layout: page
+title: Education Tags
+category: Education
+permalink: /tags/education_tag
+---
+
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% endif %}
+
+<div class="tags">
+  <ul class="label">
+    {% for tags in site.tags %}
+		{% for tag in tags[1] %}
+			{% if tag.category contains 'education' %}
+				<li>
+				  <a href="#{{ tags[0] }}">
+					<span>{{ tags[0] }}</span>
+					<span class="count">({{ tags[1] | size }})</span>
+				  </a>
+				</li>
+			{% endif %}
+			{% break %}
+		{% endfor %}
+    {% endfor %}
+  </ul>
+
+	{% for tags in site.tags %}
+		{% for tag in tags[1] %}
+			{% if tag.category contains 'education' %}
+				<h2 id="{{ tags[0] }}">
+				  {{ tags[0] }}
+				</h2>
+				<ul class="tag">
+				  {% for post in tags[1] %}
+					{% if post.title != null %}
+					  <li>
+						{% if post.link %}
+						  <a href="{{ post.link }}">
+						{% else %}
+						  <a href="{{ site.baseurl }}{{ post.url }}">
+						{% endif %}
+							{{ post.title }}
+						  </a>
+						  <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+					  </li>
+					{% endif %}
+				  {% endfor %}
+				</ul>
+			{% endif %}
+			{% break %}
+		{% endfor %}
+	{% endfor %}
+</div>

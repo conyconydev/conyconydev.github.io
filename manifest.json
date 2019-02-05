@@ -1,0 +1,15 @@
+{
+  "name": "conyconydev",
+  "short_name": "conyconydev",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#3D3D3D",
+  "background_color": "#3D3D3D",
+  "author": "conyconydev",
+  "description": "conyconydev",
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}

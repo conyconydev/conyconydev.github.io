@@ -1,0 +1,24 @@
+---
+layout: page
+title: Project
+permalink: /category/project
+---
+
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% endif %}
+
+<ul class="archive">
+  {% for post in site.categories.project %}
+    <li class="list-hight">
+      {% if post.link %}
+      <a href="{{ post.link }}">
+      {% else %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+      {% endif %}
+        {{ post.title }}
+      </a>
+      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+    </li>
+  {% endfor %}
+</ul>
