@@ -21,7 +21,7 @@ footer-links:
 google_analytics:
 version: v1.2.0
   
-permalink: /:title/
+permalink: pretty
 
 navigation:
   - name: Archive
