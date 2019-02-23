@@ -410,7 +410,6 @@ $(document).ready(function() {
                                         F([
 										" *help*        show all the possible commands", 
 										" *whoami*      display information about conyconydev", 
-										" *date*   	    show display current date",
 										" *cd* {dir}        change the working directory", 
 										" *ls* {dir}        list directory contents", 
 										" *pwd*             return the working directory", 
