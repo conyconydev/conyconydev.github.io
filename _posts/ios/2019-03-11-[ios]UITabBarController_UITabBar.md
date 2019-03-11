@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  [swift]UITabBarController,UITabBar
+title:  [ios]UITabBarController_UITabBar
 date:  2019-03-11 18:13:01
-category: ios
-tags: [swift,UITabBarController,UITabBar]
+category: post
+tags: [swift,UITabBarController,UITabBar,ios]
 ---
 
 # [swift] UITabBarController 와 UITabBar에 대해서 학습
@@ -20,7 +20,7 @@ UITabBarController의 핵심은 **radio-style interface**를 관리한다
 
 TabBarController는 UIViewController를 상속받기 때문에 컨트롤러 자체가 내부 뷰 속성에 접근할 수 있는 하나의 뷰를 가지고 있습니다. 따라서 TabBarItem을 품고 있는 TabBar라는 뷰를 품고 있기에 각 탭별로 화면전환이 가능
 
-****
+----
 
 ###UITabBar : 
 
