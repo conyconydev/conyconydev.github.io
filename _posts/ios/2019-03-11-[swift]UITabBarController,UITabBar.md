@@ -2,7 +2,7 @@
 layout: post
 title:  [swift]UITabBarController,UITabBar
 date:  2019-03-11 18:13:01
-category: iOS
+category: ios
 tags: [swift,UITabBarController,UITabBar]
 ---
 
