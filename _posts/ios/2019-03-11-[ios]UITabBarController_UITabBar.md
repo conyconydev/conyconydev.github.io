@@ -3,7 +3,7 @@ layout: post
 title:  [ios]UITabBarController_UITabBar
 date:  2019-03-11 18:13:01
 category: Post
-tags: [swift,UITabBarController,UITabBar,ios]
+tags: [ios]
 ---
 
 # [ios] UITabBarController 와 UITabBar에 대해서 학습
@@ -22,7 +22,7 @@ TabBarController는 UIViewController를 상속받기 때문에 컨트롤러 자�
 
 ----
 
-###UITabBar : 
+### UITabBar : 
 
 TabBar View에 해당하는 부분이며 UIView로, 사용자에게 탭들을 어떻게 보여주고 탭 클릭 시 어떻게 반응할 건지 (피드백을 어떻게 보여줄지) 알고 있다.
 UITabBar는 보통 UITabBarController와 함께 사용하지만 **혼자 쓰일 수도 있으며**, 각 탭을 구분하는 버튼을 포함하고 있습니다. 각각의 버튼은 탭의 종류를 뜻하며 item이라고 합니다. TabBarItem은 TabBar에 최소 1개 이상이다.
