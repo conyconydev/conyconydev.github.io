@@ -13,7 +13,7 @@ echo "---
 layout: post
 title:  $1
 date:  $date $time
-category: post
-tags: [(swift,ios,etc,memo,study), 서브 태그명(부연설명)]
+category: daily
+tags: [태그명, ]
 ---
 " > $file_name
