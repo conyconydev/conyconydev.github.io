@@ -2,7 +2,7 @@
 layout: post
 title:  protocol 기초공부
 date:  2019-01-24 10:08:33
-category: SwiftIos
+category: post
 tags: [Swift,protocol]
 ---
 

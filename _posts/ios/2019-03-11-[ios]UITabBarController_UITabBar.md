@@ -2,7 +2,7 @@
 layout: post
 title:  [ios]UITabBarController_UITabBar
 date:  2019-03-11 18:13:01
-category: Post
+category: post
 tags: [ios]
 ---
 
