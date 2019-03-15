@@ -58,3 +58,14 @@ Value Changed		: 값이 변경될 때
 
 
 
+### 버튼에 액션을 여러개 추가할 수 있을까?
+
+ [![Step3_3](https://github.com/popsmile/swift-photoframe/raw/oingbong/CaptureImage/Step3_3.png)](https://github.com/popsmile/swift-photoframe/blob/oingbong/CaptureImage/Step3_3.png)
+
+### 버튼이 여러일 때 하나의 액션에 추가할 수 있을까?
+
+- 가능 : 하나의 액션을 만들고 추가적으로 버튼을 해당 액션에 드래그해서 중복 설정이 가능합니다.
+
+#### 참고
+
+- [UIControl.Event - UIControl | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uicontrol/event)
