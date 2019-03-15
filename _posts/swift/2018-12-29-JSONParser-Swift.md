@@ -2,7 +2,7 @@
 layout: post
 title:  JSONParser-Swift
 date:  2018-12-29 13:00:13
-category: SwiftIos
+category: post
 tags: [Swift,JSONParser]
 ---
 

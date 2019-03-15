@@ -2,7 +2,7 @@
 layout: post
 title:  Collection Types
 date:  2018-09-17 23:02:46
-category: SwiftIos
+category: post
 tags: [Swift,Collection Types]
 ---
 

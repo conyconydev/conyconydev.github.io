@@ -2,7 +2,7 @@
 layout: post
 title:  random,type
 date:  2018-09-15 23:02:46
-category: SwiftIos
+category: post
 tags: [Swift,랜덤,비교,arc4random,type,타입정보]
 ---
 

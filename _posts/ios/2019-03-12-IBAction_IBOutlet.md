@@ -2,7 +2,7 @@
 layout: post
 title:  IBAction 과 IBOutlet 정리
 date:  2019-03-12 22:53:32
-category: Post
+category: post
 tags: [ios]
 ---
 

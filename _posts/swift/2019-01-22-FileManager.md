@@ -2,7 +2,7 @@
 layout: post
 title:  FileManager
 date:  2019-01-22 12:45:22
-category: SwiftIos
+category: post
 tags: [FileManager,Swift]
 ---
 

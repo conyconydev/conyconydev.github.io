@@ -2,7 +2,7 @@
 layout: post
 title:  ObjectiveC 기초문법
 date:  2019-01-24 10:26:17
-category: Study
+category: post
 tags: [Objective-C,ObjectiveC]
 ---
 
