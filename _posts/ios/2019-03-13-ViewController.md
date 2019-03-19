@@ -16,7 +16,7 @@ tags: [ios]
 
 
 
-![image-20190313005547459](/Users/adolph/Library/Application Support/typora-user-images/image-20190313005547459.png)
+![image](https://docs-assets.developer.apple.com/published/f06f30fa63/UIViewController_Class_Reference_2x_ddcaa00c-87d8-4c85-961e-ccfb9fa4aac2.png)
 
 > https://developer.apple.com/documentation/uikit/uiviewcontroller
 
