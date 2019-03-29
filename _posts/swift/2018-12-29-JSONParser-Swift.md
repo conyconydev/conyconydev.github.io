@@ -3,7 +3,7 @@ layout: post
 title:  JSONParser-Swift
 date:  2018-12-29 13:00:13
 category: post
-tags: [Swift,JSONParser]
+tags: [swift]
 ---
 
 # JSONParser - Swift

@@ -3,7 +3,7 @@ layout: post
 title:  FileManager
 date:  2019-01-22 12:45:22
 category: post
-tags: [FileManager,Swift]
+tags: [swift]
 ---
 
 # FileManager 를 공부해보자!

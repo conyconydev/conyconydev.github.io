@@ -3,7 +3,7 @@ layout: post
 title:  protocol 기초공부
 date:  2019-01-24 10:08:33
 category: post
-tags: [Swift,protocol]
+tags: [swift]
 ---
 
 # Protocol 기초 정리

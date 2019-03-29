@@ -3,7 +3,7 @@ layout: post
 title:  ClassInitializer,memory
 date:  2018-09-20 23:02:46
 category: post
-tags: [Swift,Class,Initializer,memory]
+tags: [swift]
 ---
 
 

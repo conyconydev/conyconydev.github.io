@@ -3,7 +3,7 @@ layout: post
 title:  for,if,guard,switch,while
 date:  2018-09-18 23:02:46
 category: post
-tags: [Swift,for,if,while,guard,switch]
+tags: [swift]
 
 ---
 

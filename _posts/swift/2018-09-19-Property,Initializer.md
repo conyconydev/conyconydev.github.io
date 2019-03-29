@@ -3,7 +3,7 @@ layout: post
 title:  Property,Initializer
 date:  2018-09-19 23:02:46
 category: post
-tags: [Swift,Property,Initializer]
+tags: [swift]
 ---
 ## 프로퍼티
 

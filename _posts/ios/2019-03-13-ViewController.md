@@ -2,7 +2,7 @@
 layout: post
 title:  ViewController 상태변화 정리
 date:  2019-03-13 22:53:32
-category: Post
+category: post
 tags: [ios]
 ---
 
@@ -38,14 +38,5 @@ tags: [ios]
 - 뷰 상태 변화 매서드는 프로그래머가 직접 호출하지 말아야 한다.
 - 기존 UIViewController에 작성되어 있는 매서드이므로 오버라이드 하여 구현할 때에는 override 라는 키워드를 사용하여 오버라이드 된 매서드임을 표시해 주어야 한다.
 - 오버라이드 하는 매서드이므로 꼭 해당 메서드 내에서 super.[매서드 이름] 을 통해 기존 매서드를 꼭 호출해 주어야 한다.
-
-
-
-
-
-
-
-
-
 
 
