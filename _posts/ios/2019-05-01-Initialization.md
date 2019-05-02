@@ -47,13 +47,13 @@ print(conyAddressBook.name)
 
 Swift는 클래스 타입에 모든 저장 속성에 초기 값을 받도록 도와주는 두가지 이니셜라이저를 정의함. 이를 지정 이니셜라이저(designated initializers)와 편의 이니셜라이저(convenience initializers)라고 함.
 
-#### 지정 이니셜라이저와 편의 이니셜라이저(Designated Initializers and Convenience Initializers)
+### 지정 이니셜라이저와 편의 이니셜라이저(Designated Initializers and Convenience Initializers)
 
 클래스의 주 이니셜라이저는 지정 이니셜라이저로, 클래스의 모든 속성을 완전히 초기화한다. 적합한 슈퍼클래스 이니셜라이저를 호출하여 초기화 과정을 부모클래스로 연쇄하도록 한다.
 
 모든 클래스는 하나 이상의 지정 이니셜라이저를 가진다. 지정 이니셜라이저는 깔때기를 통해 초기화 과정의 연쇄를 슈퍼클래스로 진행시킨다.
 
-##### <나의 생각 정리> 
+#### 나의 생각 정리
 >지정 이니셜 라이저(Designated Initializer) 클래스에 반드시 1개 이상 필요
 초기화가 필요한 모든 프로퍼티를 단독으로 초기화 가능한 Initializer
 
@@ -62,7 +62,7 @@ Swift는 클래스 타입에 모든 저장 속성에 초기 값을 받도록 도
 
 만약 클래스에 편의 이니셜라이저를 쓸 필요가 없다면 사용하지 않아도 된다. 일반적인 이니셜라이저 패턴을 단축할 때 만든 편의 이니셜라이저는 시간을 단축시키거나 클래스의 이니셜라이저 의도를 명확하게 만들 수 있다.
 
-##### <나의 생각 정리>
+#### 나의 생각 정리
 >편의 이니셜 라이저(Convenience Initializer) 단독으로 모든 프로퍼티를 초기화 할수 없다.
 일부 프로퍼티만 처리한 뒤 다른 Initializer 를 이용해서 전체 초기화를 수행,
 중복되는 초기화 코드 방지를 위해 사용
@@ -126,7 +126,7 @@ let lion = Mammal(leg: 4)
 
 
 
-#### 필수 이니셜라이저(Required Initializers)
+### 필수 이니셜라이저(Required Initializers)
 
 `required` 수식어를 클래스 이니셜라이저 앞에 정의하여 해당 클래스의 모든 클래스는 이니셜라이저를 구현해야 한다고 표시한다.
 
@@ -150,6 +150,6 @@ class SomeSubclass: SomeClass {
 
 상속받은 이니셜라이저가 요구 사항을 충족할 수 있다면 필수 이니셜라이저를 명시적으로 구현하여 가지고 있지 않아도 된다.
 
-##### <나의 생각 정리>
+#### 나의 생각 정리
 Required Initializer : 상속 받은 클래스에서 반드시 작성해주어야 한다.
 override 키워드는 생략된다. (단, convenience 인 경우 이 키워드 생략하지 않음)
