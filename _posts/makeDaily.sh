@@ -14,6 +14,6 @@ layout: post
 title:  $1
 date:  $date $time
 category: daily
-tags: [태그명, ]
+tags: [2019]
 ---
 " > $file_name
