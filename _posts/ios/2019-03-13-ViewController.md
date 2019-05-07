@@ -6,7 +6,7 @@ category: post
 tags: [ios]
 ---
 
-# [ios] ViewController 상태변화
+# [iOS] ViewController 상태변화
 
 > 포토프레임(사진액자 앱)을 공부하면서 정리
 

@@ -6,7 +6,7 @@ category: post
 tags: [ios]
 ---
 
-# [ios] UITabBarController 와 UITabBar에 대해서 학습
+# [iOS] UITabBarController 와 UITabBar에 대해서 학습
 
 > 포토프레임(사진액자 앱)을 공부하면서 정리
 

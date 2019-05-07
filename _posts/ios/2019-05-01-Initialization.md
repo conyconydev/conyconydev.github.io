@@ -6,7 +6,7 @@ category: post
 tags: [ios]
 ---
 
-# [ios] 초기화 정리
+# [iOS] 초기화 정리
 
 swift의 객체는 사용하기 전에 반드시 모든 저장 프로퍼티에 대한 초기화가 필요하다.
 오늘 정리 할 내용은 Initialization 를 통해 초기화를 하는것에 대해 정리 한다.

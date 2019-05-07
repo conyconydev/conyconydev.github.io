@@ -6,7 +6,7 @@ category: post
 tags: [ios]
 ---
 
-# [ios] IBAction 과 IBOutlet 정리
+# [iOS] IBAction 과 IBOutlet 정리
 
 > 포토프레임(사진액자 앱)을 공부하면서 정리
 
