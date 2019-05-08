@@ -8,8 +8,17 @@ tags: [ios]
 
 # [iOS] CocoaPods 설치하고 Xcode 나의 프로젝트에 적용하기
 
+- [[iOS] CocoaPods 설치하고 Xcode 나의 프로젝트에 적용하기](#ios-cocoapods-%EC%84%A4%EC%B9%98%ED%95%98%EA%B3%A0-xcode-%EB%82%98%EC%9D%98-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%90-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
+    - [CocoaPod가 뭘까?](#cocoapod%EA%B0%80-%EB%AD%98%EA%B9%8C)
+    - [CocoaPod 사용법 정리](#cocoapod-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC)
+      - [첫번째 CocoaPod 설치](#%EC%B2%AB%EB%B2%88%EC%A7%B8-cocoapod-%EC%84%A4%EC%B9%98)
+      - [두번째 적용하고 싶은 프로젝트 가서 CocoaPod init](#%EB%91%90%EB%B2%88%EC%A7%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%9D%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%80%EC%84%9C-cocoapod-init)
+      - [세번째 Podfile을 활용해 라이브러리 다운로드 받는 방법](#%EC%84%B8%EB%B2%88%EC%A7%B8-podfile%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%B4-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EB%8A%94-%EB%B0%A9%EB%B2%95)
+      - [네번째 pod install](#%EB%84%A4%EB%B2%88%EC%A7%B8-pod-install)
+    - [삭제](#%EC%82%AD%EC%A0%9C)
+
 ### CocoaPod가 뭘까?
-CocoaPod는 무엇입니까?"라고 궁금해서 찾아보았다.
+CocoaPod는 무엇입니까?" 뭘까? 궁금해서 검색을 했다면!!!!
 -> CocoaPods 웹 사이트에서 답을 찾는 것이 가장 좋다.
 
 CocoaPods는 Swift 및 Objective-C 코코아 프로젝트의 종속성 관리자이다. 30,000 개가 넘는 라이브러리를 보유하고 있으며 많은 앱에서 사용되고 있다. CocoaPod는 프로젝트를 우아하게 확장하는데 도움을 준다.
