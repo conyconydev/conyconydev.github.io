@@ -28,7 +28,7 @@ SwiftLint사용법은 [swiftLint 한글 사용법](https://github.com/realm/Swif
 2. Podfile에 pod 'SwiftLint' 추가한 뒤 pod install
 3. Target > build phase > + > new run script phase
 ${PODS_ROOT}/SwiftLint/swiftlint
-Run script에 위 코드를 추가해주시고, 빌드하면 된다.
+Run script에 위 코드를 추가해주고, 빌드하면 된다.
 
 ![swiftLint](https://github.com/conyconydev/conyconydev.github.io/blob/master/_posts/postImg/SwiftLint.png?raw=true)
 

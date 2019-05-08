@@ -76,11 +76,11 @@ pod 라이브러리이름 뒤에 ~>가 붙은 숫자 코드는 버전이다.
  > pod 'Alamofire', '~> 5.0.0-beta.5'
 
 내가 사용하는 SwiftLint 라이브러리는 안써줘도 되는것 같다.
-> 참고 : https://github.com/realm/SwiftLint/blob/master/README_KR.md
+> 참고 : <https://github.com/realm/SwiftLint/blob/master/README_KR.md>
 
 
 만약에 내가 쓰고싶은 라이브러리가 있다면, 먼저 코코아팟 사이트에 가셔서 검색을 하고, 해당 라이브러리 글에 들어가면, 어떻게 사용하는지 나온다.
-> 참고 : https://cocoapods.org/
+> 참고 : <https://cocoapods.org/>
 
 #### 네번째 pod install
 이제 Podfile을 저장하고, 다시 터미널 창으로 돌아 온 다음, 아래의 명령어를 입력 해준다.
