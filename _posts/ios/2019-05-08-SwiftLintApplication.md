@@ -33,5 +33,5 @@ https://github.com/realm/SwiftLint/blob/master/README_KR.md
 ${PODS_ROOT}/SwiftLint/swiftlint
 Run script에 위 코드를 추가해주시고, 빌드하면 된다.
 
-![swiftLint](../postImg/SwiftLint.png)
+![swiftLint](https://github.com/conyconydev/conyconydev.github.io/blob/master/_posts/postImg/SwiftLint.png?raw=true)
 
