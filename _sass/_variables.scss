@@ -4,7 +4,7 @@
 //
 
 
-@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 
 // Colors
@@ -18,7 +18,7 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
-$base_font: 'Jeju Gothic', serif;
+$base_font:  'Noto Sans KR', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
