@@ -7,6 +7,9 @@
 
 @import "reset";
 @import "variables";
+* {
+  font-family: $base_font;
+}
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
