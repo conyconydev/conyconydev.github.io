@@ -30,5 +30,4 @@ SwiftLint사용법은 [swiftLint 한글 사용법](https://github.com/realm/Swif
 ${PODS_ROOT}/SwiftLint/swiftlint
 Run script에 위 코드를 추가해주고, 빌드하면 된다.
 
-![swiftLint](https://github.com/conyconydev/conyconydev.github.io/blob/master/_posts/postImg/SwiftLint.png?raw=true)
-
+<img width="400" src="https://github.com/conyconydev/conyconydev.github.io/blob/master/_posts/postImg/SwiftLint.png?raw=true">

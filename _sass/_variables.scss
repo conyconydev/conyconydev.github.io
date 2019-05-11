@@ -3,6 +3,10 @@
 // VARIABLES
 //
 
+
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+
 // Colors
 $blue: #4183C4;
 
@@ -14,10 +18,7 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$base_font: 'Jeju Gothic', serif;
 
 // Mobile breakpoints
 @mixin mobile {

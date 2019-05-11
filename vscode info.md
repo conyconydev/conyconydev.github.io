@@ -59,3 +59,8 @@ polacode(소스코드 캡쳐)
 
 
 확장은 맨 좌측에 사각형 누른 후 위에 markdown All in One입력하여 확인
+
+
+
+목차 생성    >> ctrl + shift + t
+목차 업데이트 >> ctrl + shift + u
