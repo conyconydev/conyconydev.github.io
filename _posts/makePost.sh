@@ -16,4 +16,10 @@ date:  $date $time
 category: post
 tags: [(swift,ios,etc,memo,study), 서브 태그명(부연설명)]
 ---
+
+<pre><code class="swift">
+//소스코드 작성.
+// class = "사용 언어"
+// class = "plaintext"
+</code></pre>
 " > $file_name
