@@ -59,7 +59,6 @@ UIApplicationMain은 application객체와 application delegate를 만들고, 이
 반환 타입이 설정되었더라도 이 함수는 절대 반환하지 않는다. 이 함수의 작동 방식에 대한 자세한 내용 은 iOS 용 [App Programming Guide](https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072)의 " [App App Behavior](https://developer.apple.com/library/archive/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/ExpectedAppBehaviors/ExpectedAppBehaviors.html#//apple_ref/doc/uid/TP40007072-CH3) "를 참조해라 .
 
 
-
 application 객체의 주요 역할은, 들어오는 사용자 이벤트의 초기 라우팅을 처리하는 것이다. 제어 객체(UIControl의 인스턴스)가 적절한 target 객체에 전달한 action 메세지를 전달한다. application 객체는 열린 window(UIWindow의 객체)의 목록을 유지관리하며, 이를 통해 앱의 UIView객체를 검색할 수 있다.
 
 
@@ -79,24 +78,21 @@ UIApplication클래스는 [UIApplicationDelegate](https://developer.apple.com/do
 
 Objective-C에서는 main.m 에서 UIApplicationMain를 호출했다.
 <pre><code class=swift>
-```swift
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
-```
 </code></pre>
 Swift에서는 appDelegate.swift에서 AppDelegate클래스 앞에 어노테이션으로 붙여서 호출했다.
 
-```swift
+<pre><code class=swift>
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     ...
 }
-```
+</code></pre>
+
 <br />
-> 나의 생각 정리
-> 1. UIApplication 싱글톤 객체 생성 : 앱에 하나만 존재하게
-> 2. @UIApplicationMain 어노테이션이 있는 class를 찾아 AppDelegate 객체를 생성
-> 3. main 이벤트 구문 실행
+
+> 나의 생각 정리 <br /> 1. UIApplication 싱글톤 객체 생성 : 앱에 하나만 존재하게 <br /> 2. @UIApplicationMain 어노테이션이 있는 class를 찾아 AppDelegate 객체를 생성 <br /> 3. main 이벤트 구문 실행
