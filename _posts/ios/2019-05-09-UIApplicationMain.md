@@ -9,6 +9,7 @@ tags: [ios]
 # [iOS] UIApplicationMain 과 UIApplication 학습
 
 Apple 문서 : [UIApplicationMain](https://developer.apple.com/documentation/uikit/1622933-uiapplicationmain?language=objc) 링크 
+<br />
 Apple 문서 : [UIApplication](https://developer.apple.com/documentation/uikit/uiapplication?language=objc) 링크
 
 ----
@@ -24,12 +25,12 @@ Apple 문서 : [UIApplication](https://developer.apple.com/documentation/uikit/u
 앱이 시작되면, 시스템은  UIApplicationMain 함수를 호출한다. 이 함수는 다른 task들 중에서 싱글톤 UIApplication객체를 만든다.
 그런 다음, shared클래스 메소드를 호출하여 객체에 접근한다.
 
-```swift
+<pre><code class=swift>
 @available(iOS 2.0, *)
 open class UIApplication : UIResponder {
     open class var shared: UIApplication { get } 
 }
-```
+</code></pre>
 
 그럼 UIApplicationMain 뭘까?
 <br />
@@ -77,7 +78,7 @@ UIApplication클래스는 [UIApplicationDelegate](https://developer.apple.com/do
 > 질문 !! 그럼 @UIApplicationMain는 어디서 왔으며? 어디에 구현이 되어있을까요? 
 
 Objective-C에서는 main.m 에서 UIApplicationMain를 호출했다.
-
+<pre><code class=swift>
 ```swift
 int main(int argc, char * argv[]) {
     @autoreleasepool {
@@ -85,7 +86,7 @@ int main(int argc, char * argv[]) {
     }
 }
 ```
-
+</code></pre>
 Swift에서는 appDelegate.swift에서 AppDelegate클래스 앞에 어노테이션으로 붙여서 호출했다.
 
 ```swift
@@ -94,7 +95,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ...
 }
 ```
-
+<br />
 > 나의 생각 정리
 > 1. UIApplication 싱글톤 객체 생성 : 앱에 하나만 존재하게
 > 2. @UIApplicationMain 어노테이션이 있는 class를 찾아 AppDelegate 객체를 생성
