@@ -25,7 +25,7 @@ Apple 문서 : [UIApplication](https://developer.apple.com/documentation/uikit/u
 앱이 시작되면, 시스템은  UIApplicationMain 함수를 호출한다. 이 함수는 다른 task들 중에서 싱글톤 UIApplication객체를 만든다.
 그런 다음, shared클래스 메소드를 호출하여 객체에 접근한다.
 
-<pre><code class=swift>
+<pre><code class="swift">
 @available(iOS 2.0, *)
 open class UIApplication : UIResponder {
     open class var shared: UIApplication { get } 
@@ -77,7 +77,7 @@ UIApplication클래스는 [UIApplicationDelegate](https://developer.apple.com/do
 > 질문 !! 그럼 @UIApplicationMain는 어디서 왔으며? 어디에 구현이 되어있을까요? 
 
 Objective-C에서는 main.m 에서 UIApplicationMain를 호출했다.
-<pre><code class=swift>
+<pre><code class="swift">
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
@@ -86,7 +86,7 @@ int main(int argc, char * argv[]) {
 </code></pre>
 Swift에서는 appDelegate.swift에서 AppDelegate클래스 앞에 어노테이션으로 붙여서 호출했다.
 
-<pre><code class=swift>
+<pre><code class="swift">
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     ...
