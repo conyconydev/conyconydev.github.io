@@ -40,7 +40,6 @@ Apple 문서: [UIImageView](https://developer.apple.com/documentation/uikit/uiim
 
 <pre><code class="swift">
 @IBOutlet weak var banana: UIImageView?
-    
 override func viewDidLoad() {
     super.viewDidLoad()
     banana?.image = UIImage(named: "Banana.jpg")
@@ -49,7 +48,12 @@ override func viewDidLoad() {
 
 
 ### Custom View 만들기
-나의 문제 : 여러개의 ImageView를 수정하고 싶다. ViewController에  ImageView 수정하는 코드를 작성하였다.
+나의 문제 : 
+
+여러개의 ImageView를 수정하고 싶다. ViewController에  ImageView 수정하는 코드를 작성하였다.
+
+
+
 > 이렇게 특정 뷰의 속성을 모두 바꾸는 코드를 꼭 ViewController가 갖고 있어야 할까요? ViewController가 비효율적으로 길어지네요!
 
 서브뷰를 만들어서 상속을 해서 더 구체적인 동작을 하는 뷰 객체를 만드는 방법이 좋겠다.
@@ -71,7 +75,6 @@ override init(frame: CGRect) { // by code
     self.layer.cornerRadius = 5.0
     self.clipsToBounds = true
 }
-
 convenience init() {
     self.init(frame: CGRect(x: 0, y: 0, width: 0, height: 0))
 }
