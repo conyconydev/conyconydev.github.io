@@ -14,6 +14,8 @@ tags: [ios]
       - [첫번째 CocoaPod 설치](#%EC%B2%AB%EB%B2%88%EC%A7%B8-cocoapod-%EC%84%A4%EC%B9%98)
       - [두번째 적용하고 싶은 프로젝트 가서 CocoaPod init](#%EB%91%90%EB%B2%88%EC%A7%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B3%A0-%EC%8B%B6%EC%9D%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%80%EC%84%9C-cocoapod-init)
       - [세번째 Podfile을 활용해 라이브러리 다운로드 받는 방법](#%EC%84%B8%EB%B2%88%EC%A7%B8-podfile%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%B4-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%B0%9B%EB%8A%94-%EB%B0%A9%EB%B2%95)
+- [Uncomment the next line to define a global platform for your project](#uncomment-the-next-line-to-define-a-global-platform-for-your-project)
+- [platform :ios, '9.0'](#platform-ios-90)
       - [네번째 pod install](#%EB%84%A4%EB%B2%88%EC%A7%B8-pod-install)
     - [삭제](#%EC%82%AD%EC%A0%9C)
 
@@ -53,7 +55,8 @@ Podfile 을 수정해서 라이브러리를 다운로드 받을 수 있다.
 
 swift Lint 라이브러리를 다운 받아 보겠다.
 
-```
+
+<pre><code class="plaintext">
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -69,7 +72,7 @@ target 'VendingMachine' do
   end
 
 end
-```
+</code></pre>
 
 pod 라이브러리이름 뒤에 ~>가 붙은 숫자 코드는 버전이다.
 
@@ -87,7 +90,7 @@ pod 라이브러리이름 뒤에 ~>가 붙은 숫자 코드는 버전이다.
 > pod install
 
 
-```
+<pre><code class="plaintext">
 Analyzing dependencies
 Downloading dependencies
 Installing SwiftLint (0.27.0)
@@ -99,13 +102,13 @@ Sending stats
 Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
 
 [!] Automatically assigning platform `osx` with version `10.14` on target `VendingMachine` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
-```
+</code></pre>
 성공적으로 설치했다는 글이 나온다.
 
 
-```
+<pre><code class="plaintext">
 [!] Please close any current Xcode sessions and use `*.xcworkspace` for this project from now on.
-```
+</code></pre>
 
 현재 Xcode세션을 종료하고,이제부터 *.xcworkspace를 사용하라는 뜻이다.
 

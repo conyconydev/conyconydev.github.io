@@ -93,6 +93,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 </code></pre>
 
-<br />
-
-> 나의 생각 정리 <br /> 1. UIApplication 싱글톤 객체 생성 : 앱에 하나만 존재하게 <br /> 2. @UIApplicationMain 어노테이션이 있는 class를 찾아 AppDelegate 객체를 생성 <br /> 3. main 이벤트 구문 실행
