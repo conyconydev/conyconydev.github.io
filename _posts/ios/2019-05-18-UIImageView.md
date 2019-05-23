@@ -29,8 +29,8 @@ Apple 문서: [UIImageView](https://developer.apple.com/documentation/uikit/uiim
   * 4. attributes inspector 선택 후 Image: 에서 넣고 싶은 이미지 파일 선택
 
 
-<img width="400" src="https://github.com/conyconydev/conyconydev.github.io/blob/master/_posts/postImg/imgAdd01">
-<img width="400" src="https://github.com/conyconydev/conyconydev.github.io/blob/master/_posts/postImg/imgAdd02">
+<img width="400" src="https://github.com/conyconydev/conyconydev.github.io/blob/master/_posts/postImg/imgAdd01.png?raw=true">
+<img width="400" src="https://github.com/conyconydev/conyconydev.github.io/blob/master/_posts/postImg/imgAdd02.png?raw=true">
 <br />
 
 * 두 번째 방법
